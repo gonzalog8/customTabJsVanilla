@@ -1,0 +1,37 @@
+.tabsTitleContainer{
+	-webkit-margin-before: 0em;
+	-webkit-margin-after: 0em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 0px;
+
+}
+.tabsTitle{
+	display: inline-block;
+	background-color: silver;
+	cursor: pointer;
+}
+.tabsTitle a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 5px 10px;
+	color: black;
+}
+.tabsTitleSelected{
+	background-color: orange;
+	font-weight: bold;
+	border-top: 2px solid orange;
+	border-left: 2px solid orange;
+	border-right: 2px solid orange;
+}
+
+.tabsBodySelected{
+	margin: 0 auto;
+	margin-left: 10px;
+}
+
+.tabsBodyUnSelected{
+	position: absolute !important;
+	top: -9999px !important;
+	left: -9999px !important;
+}
